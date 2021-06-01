@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#399AA6"
+    android:background="#5DA0E6"
     android:orientation="vertical">
 
     <TextView
@@ -14,271 +14,285 @@
         android:layout_gravity="center"
         android:layout_marginTop="10dp"
         android:layout_marginBottom="10dp"
-        android:text="List of Animals"
+        android:text="@string/list_of_animals"
         android:textSize="40sp"
         android:textStyle="bold" />
 
-    <TextView
-        android:id="@+id/animalCHeader"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:text='Animals starting with "C"'
-        android:textSize="25sp" />
-
-    <HorizontalScrollView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#D0E34D">
 
-        <LinearLayout
+        <TextView
+            android:id="@+id/animalCHeader"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
-            android:orientation="horizontal">
+            android:layout_gravity="center"
+            android:text="@string/animals_starting_with_c"
+            android:textSize="25sp" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
 
-
-                <ImageButton
-                    android:id="@+id/catBtn"
-                    android:layout_width="200dp"
-                    android:layout_height="200dp"
-                    android:scaleType="fitCenter"
-                    android:src="@drawable/cat" />
-
-                <TextView
-                    android:id="@+id/catTv"
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Cat" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+                    android:orientation="vertical">
 
 
-                <ImageButton
-                    android:id="@+id/cowBtn"
-                    android:layout_width="200dp"
-                    android:layout_height="200dp"
-                    android:scaleType="fitCenter"
-                    android:src="@drawable/cow" />
+                    <ImageButton
+                        android:id="@+id/catBtn"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/cat" />
 
-                <TextView
-                    android:id="@+id/cowTv"
+                    <TextView
+                        android:id="@+id/catTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/cat" />
+                </LinearLayout>
+
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Cow" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+                    android:orientation="vertical">
 
 
-                <ImageButton
-                    android:id="@+id/crocodileBtn"
-                    android:layout_width="200dp"
-                    android:layout_height="200dp"
-                    android:scaleType="fitCenter"
-                    android:src="@drawable/crocodile" />
+                    <ImageButton
+                        android:id="@+id/cowBtn"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/cow" />
 
-                <TextView
-                    android:id="@+id/crocodileTv"
+                    <TextView
+                        android:id="@+id/cowTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/cow" />
+                </LinearLayout>
+
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Crocodile" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+                    android:orientation="vertical">
 
 
-                <ImageButton
-                    android:id="@+id/camelBtn"
-                    android:layout_width="200dp"
-                    android:layout_height="200dp"
-                    android:scaleType="fitCenter"
-                    android:src="@drawable/camel" />
+                    <ImageButton
+                        android:id="@+id/crocodileBtn"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/crocodile" />
 
-                <TextView
-                    android:id="@+id/camelTv"
+                    <TextView
+                        android:id="@+id/crocodileTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/crocodile" />
+
+                </LinearLayout>
+
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Camel" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+                    android:orientation="vertical">
 
 
-                <ImageButton
-                    android:id="@+id/chickenBtn"
-                    android:layout_width="200dp"
-                    android:layout_height="200dp"
-                    android:scaleType="fitCenter"
-                    android:src="@drawable/chicken" />
+                    <ImageButton
+                        android:id="@+id/camelBtn"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/camel" />
 
-                <TextView
-                    android:id="@+id/chickenTv"
+                    <TextView
+                        android:id="@+id/camelTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/camel" />
+
+                </LinearLayout>
+
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Chicken" />
+                    android:orientation="vertical">
+
+
+                    <ImageButton
+                        android:id="@+id/chickenBtn"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/chicken" />
+
+                    <TextView
+                        android:id="@+id/chickenTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/chicken" />
+
+                </LinearLayout>
 
             </LinearLayout>
+        </HorizontalScrollView>
+    </LinearLayout>
 
-        </LinearLayout>
-    </HorizontalScrollView>
-
-    <TextView
-        android:id="@+id/animalDHeader"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_gravity="center"
-        android:layout_marginTop="10dp"
-        android:layout_marginBottom="10dp"
-        android:text='Animals starting with "D"'
-        android:textSize="25sp" />
-
-    <HorizontalScrollView
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content">
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="#E34336">
 
-        <LinearLayout
+        <TextView
+            android:id="@+id/animalDHeader"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:layout_marginBottom="5dp"
-            android:orientation="horizontal">
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:text="@string/animals_starting_with_d"
+            android:textSize="25sp" />
+
+        <HorizontalScrollView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
 
             <LinearLayout
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:orientation="vertical">
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp"
+                android:orientation="horizontal">
 
-
-                <ImageButton
-                    android:id="@+id/dogBtn"
-                    android:layout_width="200dp"
-                    android:layout_height="200dp"
-                    android:scaleType="fitCenter"
-                    android:src="@drawable/dog" />
-
-                <TextView
-                    android:id="@+id/dogTv"
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Dog" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+                    android:orientation="vertical">
 
 
-                <ImageButton
-                    android:id="@+id/DeerBtn"
-                    android:layout_width="200dp"
-                    android:layout_height="200dp"
-                    android:scaleType="fitCenter"
-                    android:src="@drawable/deer" />
+                    <ImageButton
+                        android:id="@+id/dogBtn"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/dog" />
 
-                <TextView
-                    android:id="@+id/deerTv"
+                    <TextView
+                        android:id="@+id/dogTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/dog" />
+                </LinearLayout>
+
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Deer" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+                    android:orientation="vertical">
 
 
-                <ImageButton
-                    android:id="@+id/donkeyBtn"
-                    android:layout_width="200dp"
-                    android:layout_height="200dp"
-                    android:scaleType="fitCenter"
-                    android:src="@drawable/donkey" />
+                    <ImageButton
+                        android:id="@+id/deerBtn"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/deer" />
 
-                <TextView
-                    android:id="@+id/donkeyTv"
+                    <TextView
+                        android:id="@+id/deerTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/deer" />
+                </LinearLayout>
+
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Donkey" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+                    android:orientation="vertical">
 
 
-                <ImageButton
-                    android:id="@+id/dolphinBtn"
-                    android:layout_width="200dp"
-                    android:layout_height="200dp"
-                    android:scaleType="fitCenter"
-                    android:src="@drawable/dolphin" />
+                    <ImageButton
+                        android:id="@+id/donkeyBtn"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/donkey" />
 
-                <TextView
-                    android:id="@+id/dolphinTv"
+                    <TextView
+                        android:id="@+id/donkeyTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/donkey" />
+
+                </LinearLayout>
+
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Dolphin" />
-
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:orientation="vertical">
+                    android:orientation="vertical">
 
 
-                <ImageButton
-                    android:id="@+id/duckBtn"
-                    android:layout_width="200dp"
-                    android:layout_height="200dp"
-                    android:scaleType="fitCenter"
-                    android:src="@drawable/duck" />
+                    <ImageButton
+                        android:id="@+id/dolphinBtn"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/dolphin" />
 
-                <TextView
-                    android:id="@+id/duckTv"
+                    <TextView
+                        android:id="@+id/dolphinTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/dolphin" />
+
+                </LinearLayout>
+
+                <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:layout_gravity="center"
-                    android:text="Duck" />
+                    android:orientation="vertical">
+
+
+                    <ImageButton
+                        android:id="@+id/duckBtn"
+                        android:layout_width="200dp"
+                        android:layout_height="200dp"
+                        android:scaleType="fitCenter"
+                        android:src="@drawable/duck" />
+
+                    <TextView
+                        android:id="@+id/duckTv"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center"
+                        android:text="@string/duck" />
+
+                </LinearLayout>
 
             </LinearLayout>
-
-        </LinearLayout>
-    </HorizontalScrollView>
+        </HorizontalScrollView>
+    </LinearLayout>
 
 
 </LinearLayout>

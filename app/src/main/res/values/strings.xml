@@ -1,3 +1,47 @@
 <resources>
     <string name="app_name">Practical2</string>
+
+    <string name="cat">Cat</string>
+    <string name="catUrl">https://a-z-animals.com/pets/cats/</string>
+    <string name="catDes">Cats, which are part of the Felidae family, are some of the smallest carnivores that are protected by humans. Their retractable claws are incredibly useful, allowing them to maintain their balance, catch their prey, and protect themselves from threats. One of the telltale signs of a domestic cat is found in their skull, showing off sharp canine teeth that they inherited from their wild ancestors. With heightened hearing and smell, even cute cats can be resourceful hunters. They are one of the first animals to be domesticated.</string>
+
+    <string name="cow">Cow</string>
+    <string name="cowUrl">https://a-z-animals.com/animals/cow/</string>
+    <string name="cowDes">Cows are animals that are found all over the world. They were domesticated by humans over 10,000 years ago for work, dairy, meat and more. However, scientists are still learning much about their complex brains and emotions. These gentle giants range from 700 lbs, to as big as a car, with some having long horns, humps on their backs, colorful patterns or other cool traits! While technically a ‘cow’ only refers to a female, the term is often used to describe any animal of the species regardless of gender. The technically correct term for a group of animals in this species is ‘cattle’.</string>
+
+    <string name="crocodile">Crocodile</string>
+    <string name="crocodileUrl">https://a-z-animals.com/animals/crocodile/</string>
+    <string name="crocodileDes">Crocodiles are one of the most well-known and fearsome animals in the world. Their powerful bodies, strong jaws and immense speed and agility along with their unparalleled stealth, has lead to them being one of the world’s most apex predators in their natural environments. Closely related to other crocodilians including alligators, caimans, and gharials, crocodiles have changed very little in an evolutionary sense in 200 million years. Unlike other reptile species, crocodilians are archosaurs which is an ancient group of reptiles that also included dinosaurs. Although dinosaurs became extinct 65 million years ago, crocodiles are thought to have survived so well over time due to the fact that they are so well suited to their environments. Today, there are 13 different crocodile species that are found inhabiting both fresh and saltwater environments throughout North and South America, Africa, Asia and Australia. Their semi-aquatic nature has led to them evolving a number of key adaptations that allow them to survive so successfully in their natural environments.</string>
+
+    <string name="camel">Camel</string>
+    <string name="camelUrl">https://a-z-animals.com/animals/camel/</string>
+    <string name="camelDes">The Camel (also known as the Dromedary Camel, the Arabian Camel and the One-Humped Camel) is a large hoofed animal that is most commonly found in the hot deserts of Northern Africa and the Middle East. Thought to have been first domesticated by native people more than 5,000 years ago, these hardy animals have proved vital to the survival of humans in these areas as they are not just used for transporting both people and goods, but also provide a good source of milk, meat and wool. The Camel is one of the most unique mammals on the planet and has adapted perfectly to life in the desert where food and water can often be scarce, and the temperature changes rapidly from the scorching-hot days to the cooler nights. However, although they would have once been found freely roaming the Arabian deserts, they are today extinct from the wild but the domestic population is widespread and numerous.</string>
+
+    <string name="chicken">Chicken</string>
+    <string name="chickenUrl">https://a-z-animals.com/animals/chicken/</string>
+    <string name="chickenDes">Every year, more than 50 billion chickens are processed for such uses. They vary widely in terms of appearance and other characteristics across hundreds of different breeds. Industrial farms produce the majority of chickens, but some are kept as pets or for other purposes.</string>
+
+    <string name="dog">Dog</string>
+    <string name="dogUrl">https://a-z-animals.com/pets/dogs/</string>
+    <string name="dogDes">All members of the genus Canis have common physical characteristics. Bone structure, behavior and reproduction are just a few markers that are unique to canids. Dogs also have unique characteristics that distinguish them from wolves. You can use some of these markers to determine whether a canid is a wolf or a dog.</string>
+
+    <string name="deer">Deer</string>
+    <string name="deerUrl">https://a-z-animals.com/animals/deer/</string>
+    <string name="deerDes">The deer is an animal that has proliferated across the globe and evolved many adaptations to help it cope with the rigors of a hostile world. Its regal antlers are some of the most notable characteristics in the animal kingdom, used for defense and sexual signaling. When it is disturbed, it can spring into action with its remarkable speed, agility, and finesse. And it has evolved a unique ability to digest all kinds of vegetation. The deer is a kind of evolutionary success story.</string>
+
+    <string name="donkey">Donkey</string>
+    <string name="donkeyUrl">https://a-z-animals.com/animals/donkey/</string>
+    <string name="donkeyDes">Donkeys are members of the horse family, although donkeys and horses represent two very different species. After domestication in Egypt and North Africa, where they were used for meat and milk, they evolved to become working beasts used to carry people or packages. They are slower than horses but are more surefooted. Historians believe that the domestication of donkeys increased the mobility of pastor cultures in the ancient world. Equipped with a social and calming nature, donkeys get along well with other domesticated mammals and can also be excellent companions for people with physical or mental disabilities.</string>
+
+    <string name="duck">Duck</string>
+    <string name="duckUrl">https://a-z-animals.com/animals/duck/</string>
+    <string name="duckDes">Ducks are omnivorous eating plants, insects, small fish, seeds, and crustaceans. A duck is a bird known as a waterfowl because they live near ponds, rivers, and lakes. This animal lives on every continent except Antarctica. Some of them live in freshwater habitats while others live in saltwater. They have a lifespan of up to 10 years.</string>
+
+    <string name="dolphin">Dolphin</string>
+    <string name="dolphinUrl">https://a-z-animals.com/animals/dolphin/</string>
+    <string name="dolphinDes">The common dolphin is generally found around the Mediterranean Sea but are also commonly seen in deep off-shore waters and to a lesser extent over continental shelves that are preferred to shallower waters. Some populations of dolphin may be present all year round, others appear to move in a migratory pattern.</string>
+
+    <string name="animals_starting_with_c">Animals starting with "C"</string>
+    <string name="list_of_animals">List of Animals</string>
+    <string name="animals_starting_with_d">Animals starting with "D"</string>
 </resources>
